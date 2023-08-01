@@ -1,0 +1,26 @@
+{
+    "name": "dsmithhayes/box-office",
+    "description": "A simple application for selling and verifying tickets.",
+    "type": "project",
+    "require": {
+        "slim/slim": "^4.12",
+        "php-di/php-di": "^7.0",
+        "slim/twig-view": "^3.3",
+        "phpcollection/phpcollection": "^0.6.0",
+        "guzzlehttp/psr7": "^2.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.2"
+    },
+    "authors": [
+        {
+            "name": "Dave Smith-Hayes",
+            "email": "me@davesmithhayes.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BoxOffice\\": "src/"
+        }
+    }
+}

@@ -1,0 +1,4 @@
+code/.phpunit.cace
+code/tmp
+code/vendor
+.idea
